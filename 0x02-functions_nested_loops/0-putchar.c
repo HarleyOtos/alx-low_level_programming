@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- *
  * main - a program that print putchar
  *
- * Return: Always (0) success
+ * Return: Always (0)
  */
 int main(void)
 {
