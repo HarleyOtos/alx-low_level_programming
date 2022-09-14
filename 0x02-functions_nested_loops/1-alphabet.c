@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet - A script that print_alphabet, in lowercase, followed by a new line
+ * print_alphabet - A script that print_alphabet
  *
- * Return: always (0) success message
+ * Return: always success
  */
 void print_alphabet(void)
 {
