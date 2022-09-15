@@ -8,8 +8,8 @@
  */
 void print_triangle(int size)
 {
-	int (inc1, inc2);
-
+	int inc1, inc2;
+	
 	if (size > 0)
 	{
 		for (inc1 = 1; inc1 <= size; inc1++)
