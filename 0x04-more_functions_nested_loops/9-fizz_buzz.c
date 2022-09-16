@@ -3,7 +3,6 @@
 /**
  * main - A program that prints the numbers from 1 to 100
  * or fizz or buzz or fizzbuzz
- *
  * Return: Always 0
  */
 int main(void)
