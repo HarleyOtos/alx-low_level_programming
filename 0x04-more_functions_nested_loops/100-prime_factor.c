@@ -2,8 +2,7 @@
 #include <math.h>
 
 /**
- * main- prints the largest prime factor
- * of a number
+ * main- prints the largest prime factor of a number 612852475143
  * Return: ALways 0
  */
 int main(void)
