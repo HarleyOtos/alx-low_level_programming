@@ -6,7 +6,6 @@
  * @str: the used string
  * Return: 0
  */
-
 void puts_half(char *str)
 {
 	int x, y, i;
