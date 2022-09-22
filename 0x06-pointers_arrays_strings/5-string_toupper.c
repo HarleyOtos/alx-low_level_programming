@@ -6,7 +6,6 @@
  * @s: The input string
  * Return: dest
  */
-
 char *cap_string(char *s)
 {
 	int count = 0, i;
