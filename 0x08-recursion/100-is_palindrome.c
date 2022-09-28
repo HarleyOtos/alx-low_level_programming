@@ -1,24 +1,23 @@
 #include "main.h"
 
 int find_strlen(char *s);
-int check_palindrome(char *s, int n, int i);
+int check_palindrome(char *s, int len, int i);
 int is_palindrome(char *s);
 
 /**
- * find_strlen - a function that returns 1 if a string is
- * a palindrome and 0 if not
+ * find_strlen - return length of string
  * @s: a string
  *
  * Return: The length of the string
  */
 int find_strlen(char *s)
 {
-	int n = 0;
+	int len = 0;
 
-	if (*(s + n))
+	if (*(s + len))
 	{
-		n++;
-		n += find_strlen(s + n);
+		len++;
+		len += find_strlen(s + len);
 	}
-	return (n);
+	return (len);
 }
