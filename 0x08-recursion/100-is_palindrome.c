@@ -5,13 +5,13 @@ int check_palindrome(char *s, int n, int i);
 int is_palindrome(char *s);
 
 /**
- * is_palindrome - a function that returns 1 if a string is
+ * find_strlen - a function that returns 1 if a string is
  * a palindrome and 0 if not
  * @s: a string
  *
  * Return: The length of the string
  */
-int is_palindrome(char *s)
+int find_strlen(char *s)
 {
 	int n = 0;
 
