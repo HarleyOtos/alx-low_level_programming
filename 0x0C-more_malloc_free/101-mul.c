@@ -37,6 +37,7 @@ char *create_xarray(int size)
 {
 	char *array;
 	int index;
+
 	array = malloc(sizeof(char) * size);
 
 	if (array == NULL)
@@ -95,6 +96,7 @@ int get_digit(char c)
 void get_prod(char *prod, char *mult, int digit, int zeroes)
 {
 	int mult_len, num, tens = 0;
+
 	mult_len = find_len(mult) - 1;
 	mult += mult_len;
 
