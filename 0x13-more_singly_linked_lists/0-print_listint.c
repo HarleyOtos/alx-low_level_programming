@@ -9,7 +9,6 @@
   *
   * Return: The number of nodes of the linked list
   */
-
 size_t print_listint(const listint_t *h)
 {
 	size_t nodes = 0;
