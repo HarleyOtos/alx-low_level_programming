@@ -1,6 +1,6 @@
-#include "lists.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include "lists.h"
 
 /**
   * delete_dnodeint_at_index -  a function that deletes the node
