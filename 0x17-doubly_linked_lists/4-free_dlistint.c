@@ -1,6 +1,6 @@
-#include "lists.h"
 #include <stdlib.h>
 #include <stdio.h>
+#include "lists.h"
 
 /**
   * free_dlistint - Free a doubly linked list
