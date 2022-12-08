@@ -1,5 +1,5 @@
-#include "lists.h"
 #include <stdlib.h>
+#include "lists.h"
 
 /**
   * get_dnodeint_at_index - Gets a node from a doubly linked list
