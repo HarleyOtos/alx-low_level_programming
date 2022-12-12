@@ -1,0 +1,3 @@
+#!/bin/bash
+wget -P .. https://raw.githubusercontent.com/...
+export LD_PRELOAD="$PWD/../libgiga.so"
