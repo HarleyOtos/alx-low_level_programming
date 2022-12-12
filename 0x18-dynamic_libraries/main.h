@@ -1,5 +1,5 @@
-#ifndef _MAIN.H_
-#define _MAIN.H_
+#ifndef _DYN_LIBS_
+#define _DYN_LIBS_
 
 int _putchar(char c);
 int _islower(int c);
