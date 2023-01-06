@@ -3,36 +3,35 @@
 /**
  * hash_table_print - A function that prints a hash table
  * @ht: The has table
- * 
+ *
  * Return: Nothing
 */
 void hash_table_print(const hash_table_t *ht)
 {
-    hash_node_t *node = NULL;
-    unsigned long int i = 0;
-    short pr_commas = 0;
+	hash_node_t *node = NULL;
+	unsigned long int i = 0;
+	short pr_commas = 0;
 
-    if (ht == NULL)
-        return;
+	if (ht == NULL)
+		return;
 
-    printf("{");
+	printf("{");
 
-    for (; i < ht->size; ++i)
-    {
-        node = ht->array[i];
+	for (; i < ht->size; ++i)
+	{
+		node = ht->array[i];
 
-        while (node)
-        {
-            if (pr_commas == 1)
-                printf(", ");
+		while (node)
+		{
+			if (pr_commas == 1)
+				printf(", ");
 
-            pr_commas = 1;
-            printf("'%s': '%s'", (char *) node->key,
-                                (char *) node->value);
-            
-            node = node->next;
-        }
-    }
+			pr_commas = 1;
+			printf("'%s': '%s'", (char *) node->key,
+					(char *) node->value);
 
-    printf("}\n");
+			node = node->next;
+		}
+	}
+	printf("}\n");
 }
