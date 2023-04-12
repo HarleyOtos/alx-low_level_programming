@@ -29,37 +29,3 @@ int exponential_search(int *array, size_t size, int value)
 
 	return (binary_search(array, low, high, value));
 }
-
-/**
- * binary_search - searches for a value in a sorted sub-array of integers
- *                 using the Binary search algorithm
- * @array: a pointer to the first element of the sub-array to search in
- * @low: the index of the first element of the sub-array
- * @high: the index of the last element of the sub-array
- * @value: the value to search for
- *
- * Return: the index where the value is located, or -1 if not found
- */
-int binary_search(int *array, size_t low, size_t high, int value)
-{
-	size_t i;
-
-	while (low <= high)
-	{
-		printf("Searching in array: ");
-		for (i = low; i < high; i++)
-			printf("%d, ", array[i]);
-		printf("%d\n", array[i]);
-
-		i = (low + high) / 2;
-
-		if (array[i] == value)
-			return (i);
-		else if (array[i] < value)
-			low = i + 1;
-		else
-			high = i - 1;
-	}
-
-	return (-1);
-}
